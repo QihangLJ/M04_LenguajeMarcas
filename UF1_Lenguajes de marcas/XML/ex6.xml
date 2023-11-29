@@ -1,0 +1,19 @@
+<?xml  version="1.0"    encoding="UFT-8"   standalone="yes"?>
+<exercici6>
+    <cites>
+        <emisor>Alba Casamitjana</emisor>
+        <receptor>Parets del Vallès</receptor>
+        <texto>
+            M&apos;encanta el Pans&amp;Company
+        </texto>
+    </cites>
+    <cites>
+        <emisor>Joana Puig</emisor>
+        <receptor>Mollet</receptor>
+        <texto>
+            <![CDATA["Si x>y, y>z i z<q, es q>x"]]>
+            <!-- La Joana Puig ho va dir el 2016-->
+        </texto>
+
+    </cites>
+</exercici6>

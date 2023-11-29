@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<carnet>
+    <persona
+    nombre="Juan" 
+    apellidos="Garcia Garcia" 
+    telefono="658957525"/>
+</carnet>

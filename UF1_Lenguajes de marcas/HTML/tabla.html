@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Qihang">
+    <meta name="description" content="Primer ejercicio de HTML.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas HTML</title>
+    <link rel="icon" href="img/favicon.ico">
+    <style>
+        table, tr, td {border:1px solid black}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M04 - Lenguaje de Marcas</h1>
+        <h2>UF1 - HTML5 y CSS</h2>
+        <h3>TABLAS</h3>
+        <p>Para volver al navegador.<a href = "EX4.html"> Pulsa AQUI</a></p>
+    </header>
+    <main>
+        <table>
+            <caption> Lista de la compra</caption>
+            <thead>
+                <tr>
+                    <td colspan="2"> Producto</td> 
+                    <td>Cantidad</td>
+                    <td>Precio</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2"> Huevos</td> 
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td colspan="2"> Leche</td> 
+                    <td>6</td>
+                    <td>1,3</td>
+                </tr>
+                <tr>
+                    <td colspan="2"> Harina</td> 
+                    <td>1</td>
+                    <td>1,6</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Carniceria</td>
+                    <td>Pechuga Pollo</td>
+                    <td>3</td>
+                    <td>4,5</td>
+                </tr>
+                <tr>
+                    <td>Carne Picada</td>
+                    <td>0,</td>
+                    <td>6,5</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>11,4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

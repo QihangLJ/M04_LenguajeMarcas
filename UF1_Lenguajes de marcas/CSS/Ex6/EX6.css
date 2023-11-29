@@ -1,0 +1,27 @@
+h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.subtitle{
+    background-color: gray;
+    margin-top: -20px;
+}
+
+h2{
+    display: inline-block;
+    margin-right: 35%;
+}
+
+.menu{
+    background-color: rgb(177, 177, 177);
+    margin-top: -14px;
+}
+header div p{
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    margin-right: 8%;
+    margin-left: 8%;
+}

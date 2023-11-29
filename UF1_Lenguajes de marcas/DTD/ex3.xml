@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE matricula [
+    <!ELEMENT matricula (ciclo,alumnos)>
+    <!ELEMENT ciclo (#PCDATA)>
+    <!ELEMENT alumnos (alumno)+>
+    <!ELEMENT alumno (nombre,year,asignaturas)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT asignaturas (asignatura)+>
+    <!ELEMENT asignatura (#PCDATA)>
+]>
+
+<matricula>
+    <ciclo>DAM</ciclo>
+    <alumnos>
+        <alumno>
+            <nombre>Juan</nombre>
+            <year>2023</year>
+            <asignaturas>
+                <asignatura>Lenguaje de marcas</asignatura>
+                <asignatura>Programacion</asignatura>
+                <asignatura>Base de datos</asignatura>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+</matricula>

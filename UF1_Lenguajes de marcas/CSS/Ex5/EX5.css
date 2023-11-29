@@ -1,0 +1,17 @@
+.figure1{
+    float :left;
+    border: aqua 1px solid;
+    height: 8em;
+    width: 8em;
+    background-color: rgb(0, 217, 255);
+    margin: 1em;
+}
+
+.figure2{
+    float :right;
+    border: aqua 1px solid;
+    height: 8em;
+    width: 8em;
+    background-color: rgb(0, 217, 255);
+    margin: 1em;
+}

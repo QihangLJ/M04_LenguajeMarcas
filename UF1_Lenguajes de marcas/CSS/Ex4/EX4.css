@@ -1,0 +1,15 @@
+.figure1{
+    border: black 1px solid;
+    padding-bottom: 100px;
+    width: 170px;
+}
+
+.figure2{
+    border: black 10px solid;
+    padding: 10px;
+}
+
+.figure3{
+    border: orange 1px solid;
+    margin: 10px;
+}

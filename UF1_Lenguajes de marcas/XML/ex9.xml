@@ -1,0 +1,37 @@
+<ComponentesJuan>
+    <producto categoria="Almacenamiento" disponibilidad="stock">
+        <codigo>640FY</codigo>
+        <nombre>Pen Drive 128GB</nombre>
+        <descripcion>Unidad de almacenamiento de 128GB con puerto USB</descripcion>
+        <precio>10€</precio>
+        <imagen>pendrive.url</imagen>
+    </producto>
+    <producto categoria="Periferico" disponibilidad="stock">
+        <codigo>975UJ</codigo>
+        <nombre>Raton con cable</nombre>
+        <descripcion>Raton ergonomico con cableado USB</descripcion>
+        <precio>5€</precio>
+        <imagen>raton.url</imagen>
+    </producto>
+    <producto categoria="Periferico" disponibilidad="agotado">
+        <codigo>534TG</codigo>
+        <nombre>Teclado inalambrico</nombre>
+        <descripcion>Teclado sin cableado, con conexion USB o Bluetooth</descripcion>
+        <precio>20€</precio>
+        <imagen>teclado.url</imagen>
+    </producto>
+    <producto categoria="Periferico" disponibilidad="stock">
+        <codigo>765IP</codigo>
+        <nombre>Monitor 24&apos; 4K</nombre>
+        <descripcion>Pantalla de 24 pulgadas con resolucion 4K</descripcion>
+        <precio>100€</precio>
+        <imagen>monitor.url</imagen>
+    </producto>
+    <producto categoria="Cableado" disponibilidad="agotado">
+        <codigo>152TU</codigo>
+        <nombre>cable HDMI</nombre>
+        <descripcion></descripcion>
+        <precio>5€</precio>
+        <imagen>hdmi.url</imagen>
+    </producto>
+</ComponentesJuan>

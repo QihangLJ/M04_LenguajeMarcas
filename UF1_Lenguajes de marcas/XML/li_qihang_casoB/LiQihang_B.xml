@@ -1,0 +1,92 @@
+<AnunciosVehiculos>
+    <Vehiculos CodigoListado="01" tipo_vehiculo="coche" garantia="1anyo" certificado="no" >
+        <Nombre>
+            Tiguan Advance 2.0
+            <Marca>VOLKSWAGEN</Marca>
+        </Nombre>
+        <DatosVehiculo>
+            <Localidad>Barcelona</Localidad>
+            <Combustible>Diesel</Combustible>
+            <AnyoFarbicacion>2017</AnyoFarbicacion>
+            <DistanciaRecorrido unidad="kilometros">96190</DistanciaRecorrido>
+            <Motor potencia="150" unidad="Caballos">BMT DSG</Motor>
+                <!-- Tabiem podemos decir que tiene 110 kilowatios de potencia-->
+        </DatosVehiculo>
+        <PrecioContado unidad="euro">20600</PrecioContado>
+        <PrecioFinanciado unidad="euro">18900</PrecioFinanciado>
+        <imagen>coche1.jpg</imagen>
+        <FechaPublicacion>
+            <Fecha>
+                <dia>23</dia>
+                <mes>10</mes>
+            </Fecha>
+            <Hora>06:19</Hora>
+        </FechaPublicacion>
+        <InfoComprador>
+            <Nombre>Luis</Nombre>
+            <Apellidos>Perez, Mendez</Apellidos>
+            <DNI>87654321Z</DNI>
+            <Observacion><![CDATA[En mis tiempos libres lo paso leyendo "Harry Potter", mi novela favorita.]]></Observacion>
+        </InfoComprador>
+    </Vehiculos>
+    <Vehiculos CodigoListado="02" tipo_vehiculo="coche" garantia="2anyo" certificado="si" >
+        <Nombre>
+            Serie 1 116d
+            <Marca>BMW</Marca>
+        </Nombre>
+        <DatosVehiculo>
+            <Localidad>Barcelona</Localidad>
+            <Combustible>Diesel</Combustible>
+            <AnyoFarbicacion>2019</AnyoFarbicacion>
+            <DistanciaRecorrido unidad="kilometros">1000</DistanciaRecorrido>
+            <Motor/>
+        </DatosVehiculo>
+        <PrecioContado unidad="euro">24990</PrecioContado>
+        <PrecioFinanciado unidad="euro">23790</PrecioFinanciado>
+        <imagen>coche2.jpg</imagen>
+        <FechaPublicacion>
+            <Fecha>
+                <dia>18</dia>
+                <mes>10</mes>
+            </Fecha>
+            <Hora>09:44</Hora>
+        </FechaPublicacion>
+        <InfoComprador>
+            <Nombre>Juan</Nombre>
+            <Apellidos>Garcia, Gonzalo</Apellidos>
+            <DNI>12345678X</DNI>
+            <Observacion>Me gusta comer en el Pans&amp;Company</Observacion>
+        </InfoComprador>
+        <InfoComprador>
+            <Nombre>Joan</Nombre>
+            <Apellidos>Puig, Balaguer</Apellidos>
+            <DNI>8888888X</DNI>
+            <Observacion>M&apos;encanten els cotxes de color color negre.</Observacion>
+        </InfoComprador>
+    </Vehiculos>
+    <Vehiculos CodigoListado="04" tipo_vehiculo="coche" garantia="1anyo" certificado="no">
+        <Nombre>
+            Sebring 2.0
+            <Marca>CHYSLER</Marca>
+        </Nombre>
+        <DatosVehiculo>
+            <Localidad>Barcelona</Localidad>
+            <Combustible>Gasolina</Combustible>
+            <AnyoFarbicacion>2001</AnyoFarbicacion>
+            <DistanciaRecorrido unidad="kilometros">134000</DistanciaRecorrido>
+            <Motor/>
+        </DatosVehiculo>
+        <PrecioContado unidad="euro">2890</PrecioContado>
+        <PrecioFinanciado/>
+            <!--El vendedor no acepta el pago financiado-->
+        <imagen/>
+        <FechaPublicacion>
+            <Fecha>
+                <dia>21</dia>
+                <mes>10</mes>
+            </Fecha>
+            <Hora>11:22</Hora>
+        </FechaPublicacion>
+        <!--Vemos una escasez de información ya que el vendedor no las pudo aportar-->
+    </Vehiculos>
+</AnunciosVehiculos>
