@@ -1,0 +1,145 @@
+/********************** ELEMENTOS GENERALES DE LA PÁGINA **************/
+*
+{
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+body{
+  text-align: left;
+}
+
+h1,h3, nav a
+{
+  font-family: Helvetica Neue, Arial, serif;
+  font-weight: normal;
+  
+}
+
+a:hover
+{
+  color: #7ABA96;
+}
+
+p , h3{
+  color: #666666;
+}
+/********************** HEADER **************/
+
+header
+{
+	display: inline-block;
+	width: 1400px;
+	text-align: center;
+	position: sticky;
+  	top: 0;
+  	z-index: 100;
+ 
+}
+.logo{
+ width: 90px;
+ height: 75px;
+ border-radius: 10%;
+ margin-left: 10px;
+ float: left;
+
+}
+
+/********************** MENÚ NAVEGACIÓN **************/
+
+nav{
+	height: 125px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	background-color: white;
+	border:0px;
+	border-bottom-width: 0.5px;
+	border-style: solid;
+	border-color: #2b8cee;
+  }
+nav ul
+{
+  list-style-type: none;
+  text-align:center;
+  text-transform: uppercase;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 15px;
+}
+nav a
+{
+  font-size: 1.25em;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: #666666;
+}
+nav a:hover
+{
+  font-size: 1.5;
+  color: #2b8cee;
+}
+
+/********************** MAIN **************/
+.imatge{
+  width: 30%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1{
+  display: flex;
+
+}
+h1, h2 {
+  color: white;
+  background-color: #2b8cee;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+h2{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inclou {
+  height: 100%;
+  margin-left: 10px;
+}
+
+.inclou p{
+  margin-bottom: 5px;
+}
+
+.inclou, .itinerari{
+  background-color: #c4f3d8;
+  padding: 10px;
+}
+
+.itinerari{
+  margin-top: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.itinerari p{
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+

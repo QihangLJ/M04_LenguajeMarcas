@@ -1,0 +1,22 @@
+estudiante{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+    padding: 20px;
+    width: 500px;
+}
+nombre {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+ciclo{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+ciclo modulos{
+    margin-top: 10px;
+    font-weight: normal;
+}

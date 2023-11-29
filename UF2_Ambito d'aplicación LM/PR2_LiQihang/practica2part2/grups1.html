@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link href="http://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="itinerari.css" />
+	<title>Grups ITB Tours</title>
+
+	<script>
+		function loadXMLDoc(filename) {
+			//Abrimos una conexión con el servidor
+			xhttp = new XMLHttpRequest();
+			//Pedimos un fichero
+			xhttp.open("GET", filename, false);
+			try { xhttp.responseType = "msxml-document" } catch (err) { alert("Hay error"); } // Helping IE11
+			xhttp.send("");
+			return xhttp.responseXML;
+		}
+
+		function displayResult() {
+			//Queremos cargar los ficheros XML y XSLT
+			xml = loadXMLDoc("../practica2part1/fitxa_grup.xml");
+			xsl = loadXMLDoc("grups1.xsl");
+			if (document.implementation && document.implementation.createDocument) {
+				//Lanzamos el xsltproc que tiene el navegador
+				xsltProcessor = new XSLTProcessor();
+				xsltProcessor.importStylesheet(xsl);
+				resultDocument = xsltProcessor.transformToFragment(xml, document);
+				//El resultado de la transformación los ponemos dentro del elemento
+				//section con identificador CONTENT-RECETAS
+				document.getElementById("content-grups").appendChild(resultDocument);
+			}
+		}
+	</script>
+</head>
+
+<body class="content-body" onload="displayResult()">
+	
+	<header>
+		<nav><div class="logo">
+		<img class="logo" src="../practica2part1/imagenes/logoitb.jpeg" alt="Logo" />
+	</div>
+			<ul>
+				<li><a href="../practica2part1/index.html">Inicio</a></li>
+				<li><a href="#">Grupos propios</a></li>
+				<li><a href="#">Viajes a medida</a></li>
+				<li><a href="#">Cruceros</a></li>
+				<li><a href="#">Ofertas</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+
+		</nav>
+	</header>
+
+	<main>
+		<section class="content-grups" id="content-grups">
+			
+		</section>
+	</main>
+
+	<footer>
+		<article class="dades">
+					<h2>Especialistas en grupos y viajes a medida</h2><br/>
+					<h2>937028473</h2> <br>
+					<a href="mailto:reservas@itb.cat"> @mail </a><br>
+						
+					<address>Aiguablava 122<br/>08030 Barcelona<br/>BARCELONA</address>
+			   </article>
+		
+
+ 				<article class="foot">
+ 					<p><a href="#">Nota Legal</a>
+					<a href="#">Contacto</a><p><br><br>
+					<br><br>	<a>© 2003 - 2023 ITB TOURS. All Rights Reserved</a>
+				</article>
+			</footer>
+	</footer>
+
+</body>
+
+</html>

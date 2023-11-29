@@ -1,0 +1,20 @@
+A) Obté en format text el mineral que tenen una densitat superior a 5?
+
+	/minerals/mineral[densitat>5]/text()
+	
+B) ¿Quin mineral conté la lletra k?
+ 
+	/minerals/mineral[nom="%K%"]
+
+C) Quants minerals pertanyen al grup de sulfurs?
+
+	/minerals/mineral[count(grup=”Sulfurs”)]
+
+D) Mostra el node sencer del penúltim mineral?
+
+	/minerals/mineral[last()-1]
+
+E) Quants minerals hi ha? Fes una consulta que et retorni el nombre total de minerals?
+
+	/minerals[count(mineral)]
+
